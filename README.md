@@ -26,7 +26,7 @@ Para executar os testes:
 g++ -std=c++20 tests/test_typetools.cpp -o test
 ./test
 ```
-##🧠 Conceitos explorados
+## 🧠 Conceitos explorados
 template: escrita de código genérico e reutilizável.
 
 constexpr: execução de lógica em tempo de compilação.
@@ -35,12 +35,12 @@ static_assert: verificação de tipos e restrições durante compilação.
 
 std::is_integral: introspecção de tipos nativos do C++.
 
-##🔮 Futuras melhorias
+## 🔮 Futuras melhorias
 Suporte a tipos flutuantes via enable_if.
 
 Reflexão simulada com macros.
 
 Geração de código baseada em metaprogramação avançada.
 
-##🧑‍💻 Sobre o autor
+## 🧑‍💻 Sobre o autor
 Criado por Habacuque como parte de seu desenvolvimento contínuo em C++. O projeto visa consolidar conhecimentos em recursos avançados da linguagem e demonstrar domínio técnico para contribuições em sistemas de alto desempenho.
