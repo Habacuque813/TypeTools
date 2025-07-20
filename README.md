@@ -42,5 +42,22 @@ Reflexão simulada com macros.
 
 Geração de código baseada em metaprogramação avançada.
 
+## Type Traits e introspecção
+
+A biblioteca permite detectar características dos tipos em tempo de compilação, como:
+
+- Se é ponteiro (`is_pointer_v<T>`)
+- Se é classe (`is_class_v<T>`)
+- Se possui método `print()` (`has_print_method_v<T>`)
+
+Tudo usando `template` + `SFINAE` com `std::void_t` e `std::decval`.
+
+Exemplo: 
+
+```cpp
+if constexpr (has_print_method_v<MyClass>){
+  myObj.print();s
+}
+
 ## 🧑‍💻 Sobre o autor
 Criado por Habacuque como parte de seu desenvolvimento contínuo em C++. O projeto visa consolidar conhecimentos em recursos avançados da linguagem e demonstrar domínio técnico para contribuições em sistemas de alto desempenho.
